@@ -1,0 +1,193 @@
+.bg1 {
+	background-color: #1e2532;
+	background-image: none;
+	float: left;
+	width: 100%;
+	height: 800px;
+}
+
+.bg2 {
+	background-attachment: fixed;
+	background-image: url(imagens/bg-estrelas.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	float: left;
+	width: 100%;
+	animation: bganimado2 600s infinite;
+	height: 800px;
+}
+@keyframes bganimado2 {
+	0% {
+	background-position: 1000px;
+	}
+	100% {
+	background-position: left;
+	}
+}
+
+
+.bg3 {
+	background-image: url(imagens/bg-lua.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado3 110s infinite;
+	height: 800px;
+}
+@keyframes bganimado3 {
+	0% {
+	background-position: center top;
+	}
+	100% {
+	background-position: center bottom;
+	}
+}
+
+
+.bg4 {
+	background-image: url(imagens/bg-arvores.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado4 100s infinite;
+	height: 800px;
+}
+@keyframes bganimado4 {
+	0% {
+	background-position: left center;
+	}
+	100% {
+	background-position: right center;
+	}
+}
+
+
+.bg5 {
+	background-image: url(imagens/bg-grama-alta.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado5 90s infinite;
+	height: 800px;
+}
+@keyframes bganimado5 {
+	0% {
+	background-position: left center;
+	}
+	100% {
+	background-position: right center;
+	}
+}
+
+.bg6 {
+	background-image: url(imagens/bg-grama1.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado6 80s infinite;
+	height: 800px;
+}
+@keyframes bganimado6 {
+	0% {
+	background-position: left center;
+	}
+	100% {
+	background-position: right center;
+	}
+}
+
+
+.bg7 {
+	background-image: url(imagens/bg-grama1.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado7 70s infinite;
+	height: 800px;
+}
+@keyframes bganimado7 {
+	0% {
+	background-position: left center;
+	}
+	100% {
+	background-position: right center;
+	}
+}
+
+
+.bg8 {
+	background-image: url(imagens/bg-grama2.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado8 60s infinite;
+	height: 800px;
+}
+@keyframes bganimado8 {
+	0% {
+	background-position: left center;
+	}
+	100% {
+	background-position: right center;
+	}
+}
+
+
+.bg9 {
+	background-image: url(imagens/bg-grama-alta-2.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+	animation: bganimado9 40s infinite;
+	height: 800px;
+}
+@keyframes bganimado9 {
+	0% {
+	background-position: left center;
+	}
+	100% {
+	background-position: right center;
+	}
+}
+
+
+
+.personagem1 {
+	float: left;
+	width: 50%;
+	height: 500px;
+	margin-top: 200px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	animation: demogorgon 1s infinite;
+	margin-right: 0%;
+	margin-left: 0%;
+	background-size: 400px;
+}
+@keyframes demogorgon {
+    0%		{background-image: url(imagens/demogorgon1.png);}
+    50%		{background-image: url(imagens/demogorgon2.png);}
+    100%	{background-image: url(imagens/demogorgon1.png);}
+}
+
+
+.personagem2 {
+	float: left;
+	width: 50%;
+	height: 500px;
+	margin-top: 200px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	animation: it 0.5s infinite;
+	margin-right: 0%;
+	margin-left: 0%;
+	background-size: 350px;
+}
+@keyframes it {
+    0%		{background-image: url(imagens/it1.png);}
+    33%		{background-image: url(imagens/it2.png);}
+	66%		{background-image: url(imagens/it3.png);}
+    100%	{background-image: url(imagens/it3.png);}
+}
